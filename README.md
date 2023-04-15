@@ -65,62 +65,62 @@ We experimented with different configurations, creating a new target by combinin
 After building our first set of models, we realized that our data needed to be cleaned some more. So, we encoded the Diabetes_012 , Age, Income and Education cloumns, and also over sampled the data to offset the negative effect of having an imbalanced dataset. Ultimately, we chose the models that performed the best to feature in our final notebook. 
 
 
-        Outline of Google Colab Models/Cleaning
+Outline of Google Colab Models/Cleaning
 
-        1. Random Forest Model on Unclean Data
-        - didn't predict for pre-diabetes well
-        - did give us feature importance
-        ![feature importance graph](Project_4/Images/FeagureImportances.png)
-        ![Random Forrest confusion matrix](Project_4/Images/RandomForrestCofusion.png)
-        ![accuracy score](Project_4/Images/RFAccuracy.png)
-        ![classification report](Project_4/Images/RFclassificaton.png)
+1. Random Forest Model on Unclean Data
+- didn't predict for pre-diabetes well
+- did give us feature importance
+![feature importance graph](Project_4/Images/FeagureImportances.png)
+![Random Forrest confusion matrix](Project_4/Images/RandomForrestCofusion.png)
+![accuracy score](Project_4/Images/RFAccuracy.png)
+![classification report](Project_4/Images/RFclassificaton.png)
 
-        2. Data Modeling, Cleaning CSV
-        - split all categorical columns with get_dummies
-        - Diabetes_012, Age, Education, Income
-
-
-        3. Over Sampling
-        - utilized synthetic minority over-sampling technique (smote) to address class
-        imbalance in the pre-diabetes disease status population
-        ![insert image of oversample distribution plot]()
+2. Data Modeling, Cleaning CSV
+- split all categorical columns with get_dummies
+- Diabetes_012, Age, Education, Income
 
 
-        4. Logistic Regression using Oversampled Data
-        - created a logistic regression model 
-        - Oversampling still couldn't predict prediabetes
-        ![insert image of classification report]()
-
-        5. Neural Network Model Using Oversampled Data
-        - created a neural network model and added layers from
-        a previously successful model (not in the notebook)
-        - Oversampling still couldn't predict prediabetes
-        ![5NN confusion matrix](Project_4/Images/image.png)
-        ![5NN accuracy score](Project_4/Images/5NN_accuracty.png)
-        ![5NN classification report](Project_4/Images/5NN_classification.png)
-
-        6. Auto NN w/o prediabetes
-        - created an automated neural network to test the best hyperparameter options
-        - left prediabetes out of the target and added to the features
-        - got the best hyperparameters
-        - go the best model
-
-        7. NN Model using Best Hyperparameters
-        - created a model using the best hyperparameters from the auto NN
-        - Did not perform how we'd like
-        ![7NN loss plot](Project_4/Images/7NN_loss_plot.png)
-        ![7NN accuracy plot](Project_4/Images/7NN_acc_plot.png)
+3. Over Sampling
+- utilized synthetic minority over-sampling technique (smote) to address class
+imbalance in the pre-diabetes disease status population
+![insert image of oversample distribution plot]()
 
 
-        8. NN Model using Best Model
-        - created a model using the best model from the auto NN
-        - better accuracy and loss
-        ![insert loss plot]()
-        ![insert accuracy plot]()
-        ![insert loss and accuracy]()
-        ![insert image of confusion matrix]()
-        ![insert image of accuracy score]()
-        ![insert image of classification report]() 
+4. Logistic Regression using Oversampled Data
+- created a logistic regression model 
+- Oversampling still couldn't predict prediabetes
+![insert image of classification report]()
+
+5. Neural Network Model Using Oversampled Data
+- created a neural network model and added layers from
+a previously successful model (not in the notebook)
+- Oversampling still couldn't predict prediabetes
+![5NN confusion matrix](Project_4/Images/image.png)
+![5NN accuracy score](Project_4/Images/5NN_accuracty.png)
+![5NN classification report](Project_4/Images/5NN_classification.png)
+
+6. Auto NN w/o prediabetes
+- created an automated neural network to test the best hyperparameter options
+- left prediabetes out of the target and added to the features
+- got the best hyperparameters
+- go the best model
+
+7. NN Model using Best Hyperparameters
+- created a model using the best hyperparameters from the auto NN
+- Did not perform how we'd like
+![7NN loss plot](Project_4/Images/7NN_loss_plot.png)
+![7NN accuracy plot](Project_4/Images/7NN_acc_plot.png)
+
+
+8. NN Model using Best Model
+- created a model using the best model from the auto NN
+- better accuracy and loss
+![insert loss plot]()
+![insert accuracy plot]()
+![insert loss and accuracy]()
+![insert image of confusion matrix]()
+![insert image of accuracy score]()
+![insert image of classification report]() 
 
 
 Conclusions:
