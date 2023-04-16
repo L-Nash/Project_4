@@ -98,7 +98,7 @@ Using the hyperparameters from our previous step, we created another neural netw
 
 
 8. NN Model using Best Model:
-Lastly, we created another neural networking using our best model (see #5), and prediabetes was again excluded from the target. This resulted in accuracy that was slightly better than the model in step 7.
+Lastly, we created another neural network using our best model (see #5), and prediabetes was again excluded from the target. This resulted in accuracy that was slightly better than the model in step 7.
 
 ![8NN loss plot](/Images/8NN_loss.png)
 
