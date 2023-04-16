@@ -66,7 +66,7 @@ After building our first set of models, we realized that our data needed further
 
 3. Over Sampling:
 We utilized synthetic minority over-sampling technique (smote) to address class
-imbalance in the pre-diabetes disease status population.
+imbalance in the prediabetes disease status population.
 
 ![oversample distribution plot](/Images/Count_status.png)
 
