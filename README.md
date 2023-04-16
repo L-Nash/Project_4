@@ -8,7 +8,7 @@ There are interventions that can improve the condition, but about 20% of people 
 
 
 ## Data Source: 
-Our data was sourced from Kaggle. The "Diabetes Health Indicators Dataset Notebook" is a subset of a larger dataset from Behavioral Risk Factor Surveillance System (BRFSS). BRFSS conducts over 400,000 surveys each year and the resulting dataset includes participant responses to hundreds of health-related questions.  Our reduced dataset has 22 variables ranging from high blood pressure to BMI to Education (full list below), and we used 'Diabetes_012' as our target variable. 'Diabetes_012' has three distinct classes: "0"= no diabetes, "1" - prediabetes, "2" -diabetes. 
+Our data was sourced from Kaggle. The "Diabetes Health Indicators Dataset Notebook" is a subset of a larger dataset from Behavioral Risk Factor Surveillance System (BRFSS). BRFSS conducts over 400,000 surveys each year and the resulting dataset includes participant responses to hundreds of health-related questions.  Our reduced dataset has 22 variables ranging from high blood pressure to BMI to Education (full list below), and we used 'Diabetes_012' as our target variable. 'Diabetes_012' has three distinct classes: "0" = no diabetes, "1" = prediabetes, "2" = diabetes. 
 
 Dataset: https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
 
