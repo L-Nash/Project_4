@@ -77,7 +77,7 @@ We'd hoped that oversampling would allow our model to predict prediabetes, but u
 ![classification report](/Images/logistic_classification.png)
 
 5. Neural Network Model Using Oversampled Data:
-The first neural network model feature in the notebook used layer specifications from
+The first neural network model featured in the notebook used layer specifications from
 a previously successful model (not in the notebook). And, just like with the logistic regression model, oversampling did not fix the prediabetes prediction problem. 
 
 ![5NN confusion matrix](/Images/5NN_confustion.png)
