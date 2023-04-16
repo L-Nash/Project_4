@@ -2,9 +2,9 @@
 Isabella Taylor, Leah Nash, Sandra Braun, Valerie Grannemann-Barber
 
 ## Background:
-Diabetes is a condition where the body is unable make enough insulin to clear glucose from the bloodstream. This results in increased glucose levels that can seriously effcect a person's health. Diabetes can cause heart problems, kidney damage, hearing problems or in extreme cases, death.  According to the Centers for Disease Control, over 37 million people in the United States have the condition.
+Diabetes is a medical condition where the body is unable make enough insulin to clear glucose from the bloodstream. This results in increased glucose levels that can seriously effcect a person's health. Diabetes can cause heart problems, kidney damage or hearing problems. According to the Centers for Disease Control, it is the eight leading cause of death in the United States.  Additionally, the diabetes population has moree than doubleed in the last 20 years and currently over 37 million people in the United States have the condition.
 
-There are interventions that can improve the condition, but people often do not realize that they have diabetes. This is espcially the case with prediabetes, which is just before the onset of diabetes and often doesn't have any symptons.  However, if we could determine how suspetible a person is to getting diabetes or prediabetes early on, medical professionals would have the opportunity to help patients change their trajectory. In the long run, it would improve a patient's quality of life and also reduce healthcare costs. So as a group, we set out to build a model to predict diabetes and prediabetes.
+There are interventions that can improve the condition, but about 20% of people do not realize that they have it. This is espcially the case with prediabetes, which is just before the onset of diabetes and often doesn't have any symptons.  However, if we could determine how suspetible a person is to getting diabetes or prediabetes early on, medical professionals would have the opportunity to help patients change their trajectory. In the long run, being able to make these predictions could improve a patient's quality of life and also reduce healthcare costs. We wanted to take on this chanllenge and set out to build a machine learning model that can predict diabetes and prediabetes.
 
 
 ## Data Source: 
