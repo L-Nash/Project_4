@@ -113,5 +113,3 @@ Lastly, we created another neural network using our best model (see #5), and pre
 
 ## Conclusion:
 We were able to achieve a good overall accuracy score on our final model. But, results specifically for the diabetes class were not as expected.  And, although we were unable to predict prediabetes, we learned a lot about the need to incorporate methods to balance our sample. Overall, our model needs further refinement before we would be able to use it in a practical application.  
-
-
